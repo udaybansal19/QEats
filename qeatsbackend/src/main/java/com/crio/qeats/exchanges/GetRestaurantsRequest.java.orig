@@ -1,0 +1,52 @@
+/*
+ *
+ *  * Copyright (c) Crio.Do 2019. All rights reserved
+ *
+ */
+
+package com.crio.qeats.exchanges;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+// TODO: CRIO_TASK_MODULE_RESTAURANTSAPI - Implement GetRestaurantsRequest.
+// Complete the class such that it is able to deserialize the incoming query params from
+// REST API clients.
+<<<<<<< HEAD
+// For instance, if a REST client calls API /qeats/v1/restaurants?latitude=21.93&longitude=23.0,
+// this class should be able to deserialize lat/long from that.
+=======
+// For instance, if a REST client calls API
+// /qeats/v1/restaurants?latitude=28.4900591&longitude=77.536386&searchFor=tamil,
+// this class should be able to deserialize lat/long and optional searchFor from that.
+>>>>>>> 965a8c32dbabf91b54a6cee4d022e188d44b7390
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class GetRestaurantsRequest {
+
+<<<<<<< HEAD
+  private Double latitude;
+  private Double longitude;
+
+  public Double getLongitude() {
+    return longitude;
+  }
+
+  public void setLongitude(Double longitude) {
+    this.longitude = longitude;
+  }
+
+  public Double getLatitude() {
+    return latitude;
+  }
+
+  public void setLatitude(Double latitude) {
+    this.latitude = latitude;
+  }
+=======
+
+
+>>>>>>> 965a8c32dbabf91b54a6cee4d022e188d44b7390
+}
